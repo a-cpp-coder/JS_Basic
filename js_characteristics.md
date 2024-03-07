@@ -1,0 +1,1 @@
+Need to learn the features of a languages to fully master it
