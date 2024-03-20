@@ -1,0 +1,25 @@
+<html>
+    <head>
+        <script>
+            // var is function scope, let and const is block scope
+            function foo() {
+                var x = 1;
+                function bar() {
+                    var y = 2;
+                    console.log(x);
+                    console.log(y);
+            }
+            bar();
+            console.log(x);
+            console.log(y); // error no define
+            }
+            
+        </script>
+    </head>
+    <body>
+        <p>a test</p>
+        <form>
+            <input type="button" value="click to test" onclick="foo()"/>
+        </form>
+    </body>
+</html>
